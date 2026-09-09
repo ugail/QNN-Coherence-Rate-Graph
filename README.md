@@ -17,6 +17,9 @@ diagnostics including exact per-slot product laws, and a deterministic
 prior-integrated population benchmark that supplies exact targets against
 which finite-ensemble estimates are judged.
 
+
+<img width="2794" height="1144" alt="fig4_slots_second_order" src="https://github.com/user-attachments/assets/cd19b67f-b4c9-409d-9089-95bff7292919" />
+
 ---
 
 ## What's in this repository
