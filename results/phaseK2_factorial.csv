@@ -1,0 +1,6 @@
+sector_r,input,ell,q,support_weight_protected_fraction,delta_tilde_g002,omega_hat_g002,note
+1,localized,2,1,1.0,1.6653345369377348e-15,3.469446951953614e-15,reference
+1,spread,2,1,0.829622967200971,0.04449165348677797,0.09269094476412078,input control
+2,localized,-1,-1,,,,no visible parameters
+2,spread,0,7,0.12933310311968127,0.13844915959807713,0.14421787458133034,delocalised higher sector
+2,spread,1,0,0.40025791192466786,0.15378713835708968,0.16019493578863508,delocalised higher sector

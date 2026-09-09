@@ -1,0 +1,18 @@
+{
+  "phase": "backfill",
+  "mode": "paper",
+  "fingerprint_version": 2,
+  "config_fingerprint": "93c4a0c2867ab984",
+  "written_utc": "2026-09-07T20:03:10Z",
+  "seeds": {
+    "teacher": 42,
+    "preflight": 11,
+    "est": 1,
+    "meas": 1234,
+    "boot": 7,
+    "sweep": 33,
+    "hess": 55
+  },
+  "backfilled": true,
+  "note": "sidecar written after the fact; execution history for this file is not documented"
+}

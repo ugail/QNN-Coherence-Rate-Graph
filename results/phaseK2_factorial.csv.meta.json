@@ -1,0 +1,16 @@
+{
+  "phase": "K2",
+  "mode": "paper",
+  "fingerprint_version": 2,
+  "config_fingerprint": "93c4a0c2867ab984",
+  "written_utc": "2026-09-07T19:49:56Z",
+  "seeds": {
+    "teacher": 42,
+    "preflight": 11,
+    "est": 1,
+    "meas": 1234,
+    "boot": 7,
+    "sweep": 33,
+    "hess": 55
+  }
+}

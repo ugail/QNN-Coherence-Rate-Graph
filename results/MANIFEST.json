@@ -1,0 +1,302 @@
+{
+  "pipeline": "coherence_graph_pipeline",
+  "version": "1.5",
+  "mode": "paper",
+  "config": {
+    "n": 8,
+    "L": 3,
+    "r": 1,
+    "depths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "gamma_meas": [
+      0.01,
+      0.02
+    ],
+    "so2_gl_grid": [
+      0.01,
+      0.02,
+      0.035,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "so2_fd_small": [
+      0.001,
+      0.002
+    ],
+    "hess_h": 0.01,
+    "n_theta_est": 40,
+    "n_theta_meas": 30,
+    "n_theta_hess": 20,
+    "preflight_draws": 8,
+    "bootstrap_B": 1000,
+    "sweep_profiles": 150,
+    "sweep_edge_sets": 50,
+    "r2_numeric_channels": [
+      "dephase",
+      "inhom_dephase",
+      "corr_dephase",
+      "amp_damp",
+      "site_amp_damp",
+      "depol"
+    ],
+    "stress_depths": [
+      5,
+      6
+    ],
+    "stress_est": 120,
+    "stress_meas": 400,
+    "gamma_stress": [
+      0.005,
+      0.01,
+      0.02
+    ],
+    "r2_offdiag_channels": [
+      "depol",
+      "x_err",
+      "biased_pauli",
+      "dephase",
+      "corr_dephase",
+      "amp_damp"
+    ],
+    "offdiag_probes": [
+      0.001,
+      0.0005
+    ],
+    "f2_slot_strengths": [
+      0.1,
+      0.23
+    ],
+    "f2_product_draws": 5,
+    "f2_fd_steps": [
+      0.01,
+      0.005,
+      0.0025,
+      0.00125
+    ],
+    "j_gammas": [
+      0.1,
+      0.3
+    ],
+    "k_meas": 30,
+    "eq_margin": 0.01,
+    "h2_sizes": [
+      40,
+      120
+    ],
+    "h2_reps": 10
+  },
+  "seeds": {
+    "teacher": 42,
+    "preflight": 11,
+    "est": 1,
+    "meas": 1234,
+    "boot": 7,
+    "sweep": 33,
+    "hess": 55
+  },
+  "gamma_probe": 0.001,
+  "delta_init": 0.05,
+  "timings_seconds": {
+    "P": 24.33,
+    "P-stats": 1.1
+  },
+  "total_wall_seconds": 39.3,
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "python": "3.13.15",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "notebook_sha256_16": "not_located (set CGL_NOTEBOOK_PATH to record it)",
+  "modules_from_cohalign_release": "v1.8.1 (verbatim)",
+  "file_provenance": {
+    "phaseA_selftests.csv": {
+      "status": "inherited (backfilled provenance)"
+    },
+    "phaseB_graph_recovery.csv": {
+      "status": "inherited (backfilled provenance)"
+    },
+    "phaseB_pair_rates.csv": {
+      "status": "inherited (backfilled provenance)"
+    },
+    "phaseC_cut_crossing.csv": {
+      "status": "inherited (backfilled provenance)"
+    },
+    "phaseD_bound.csv": {
+      "status": "inherited (backfilled provenance)"
+    },
+    "phaseD_sweep.csv": {
+      "status": "inherited (backfilled provenance)"
+    },
+    "phaseE_slot_forms.csv": {
+      "status": "inherited (backfilled provenance)"
+    },
+    "phaseF2_derived.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "F2D"
+    },
+    "phaseF2_fd_convergence.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "F2"
+    },
+    "phaseF2_product_law.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "F2"
+    },
+    "phaseF2_uniform_grid.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "F2"
+    },
+    "phaseG_r2_graph.csv": {
+      "status": "inherited (backfilled provenance)"
+    },
+    "phaseH2_equivalence.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "H2"
+    },
+    "phaseH2_replication.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "H2"
+    },
+    "phaseH_deep_stress.csv": {
+      "status": "inherited (backfilled provenance)"
+    },
+    "phaseI2_diagonality_scope.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "I"
+    },
+    "phaseJ2_fixed_points.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "J2"
+    },
+    "phaseJ3_path_certificate.csv": {
+      "status": "execution-bound",
+      "phase": "J3",
+      "written_utc": "2026-09-07T21:07:57Z"
+    },
+    "phaseJ_visible_protection.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "J"
+    },
+    "phaseK2_factorial.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "K2"
+    },
+    "phaseK_r2_overlap.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "K"
+    },
+    "phaseP_benchmark.csv": {
+      "status": "execution-bound",
+      "phase": "P",
+      "written_utc": "2026-09-08T06:31:54Z"
+    },
+    "phaseP_estimator_stats.csv": {
+      "status": "execution-bound",
+      "phase": "P-stats",
+      "written_utc": "2026-09-08T06:31:56Z"
+    },
+    "phaseP_population.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "P"
+    },
+    "phaseP_replication_stats.csv": {
+      "status": "inherited (legacy provenance)",
+      "phase": "P"
+    }
+  },
+  "runs": [
+    {
+      "mode": "paper",
+      "version": "1.3",
+      "cache_only": false,
+      "phases_run": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F2",
+        "F2D",
+        "G",
+        "H",
+        "H2",
+        "I",
+        "J",
+        "J2",
+        "K",
+        "K2",
+        "P"
+      ],
+      "timings_seconds": {
+        "A": 9.19,
+        "B": 4.38,
+        "C": 115.28,
+        "D": 600.24,
+        "E": 20.72,
+        "G": 38.53,
+        "H": 570.53,
+        "I": 100.95,
+        "F2": 113.87,
+        "J": 22.55,
+        "K": 9.93,
+        "F2D": 19.83,
+        "J2": 0.79,
+        "K2": 23.73,
+        "H2": 768.23,
+        "P": 23.13
+      },
+      "total_wall_seconds": 2444.2,
+      "written_utc": "2026-09-07T20:03:10Z"
+    },
+    {
+      "mode": "paper",
+      "version": "1.4",
+      "cache_only": false,
+      "phases_run": [
+        "J3",
+        "P"
+      ],
+      "timings_seconds": {
+        "J3": 8.25,
+        "P": 24.67
+      },
+      "total_wall_seconds": 47.4,
+      "written_utc": "2026-09-07T20:36:34Z"
+    },
+    {
+      "mode": "paper",
+      "version": "1.4",
+      "cache_only": false,
+      "phases_run": [
+        "J3",
+        "P"
+      ],
+      "timings_seconds": {
+        "J3": 8.19,
+        "P": 25.97
+      },
+      "total_wall_seconds": 51.7,
+      "written_utc": "2026-09-07T21:08:34Z"
+    },
+    {
+      "mode": "paper",
+      "version": "1.5",
+      "cache_only": false,
+      "phases_run": [
+        "P",
+        "P-stats"
+      ],
+      "timings_seconds": {
+        "P": 24.33,
+        "P-stats": 1.1
+      },
+      "total_wall_seconds": 39.4,
+      "written_utc": "2026-09-08T06:32:04Z"
+    }
+  ]
+}

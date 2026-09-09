@@ -1,0 +1,13 @@
+test,passed,detail
+trace preservation (all channels),True,worst 8.9e-16
+sector preservation (noiseless circuit),True,leak 0.0e+00
+pair-basis diagonality (phase-covariant families),True,worst off-diag mass 1.5e-16
+analytic rate identity (probe-bias tolerance),True,worst rel dev 3.49e-03 at probe 1e-03
+difference-form identity (dephasing family),True,worst 8.9e-16
+potential-form identity (damping family),True,worst 0.0e+00
+protection kernel dimension,True,"kernel 8, protected pairs 8, 2|E| 8"
+coherent-dissipative null duplicates amplitude damping,True,max diag dev 0.0e+00
+slotwise evolution consistency,True,max dev 0.0e+00
+response frame invariance,True,defect 2.5e-16
+"cut predictor: shallow protection (param (2,1))",True,"{0: [0, 1], 1: [0, 1], 2: [0]}"
+support-cut bound (worked case),True,lam 3.9960 >= bound 3.9960

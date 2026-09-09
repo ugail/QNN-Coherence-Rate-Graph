@@ -1,0 +1,24 @@
+{
+  "phase": "P-stats",
+  "mode": "paper",
+  "fingerprint_version": 3,
+  "config_fingerprint": "93c4a0c2867ab984",
+  "phase_source_sha256": "9fb695d783ce",
+  "output_sha256": "adc34b3f96962d4ca0b709913d29e8fcdc5cda298b11c436cc15a8d0c947bdc8",
+  "companions": [],
+  "companion_sha256": {},
+  "input_sha256": {
+    "phaseH2_replication.csv": "0bb97b536b3b039e6238361e35e266125ef3c3086413c59c2adb4d68fcd11683",
+    "phaseH2_equivalence.csv": "1d3ce4fefedc4a28daeaaa02101e2dbd63fd0c9421c1d892486d597c5d51b16c"
+  },
+  "written_utc": "2026-09-08T06:31:56Z",
+  "seeds": {
+    "teacher": 42,
+    "preflight": 11,
+    "est": 1,
+    "meas": 1234,
+    "boot": 7,
+    "sweep": 33,
+    "hess": 55
+  }
+}

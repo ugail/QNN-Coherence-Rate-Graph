@@ -1,0 +1,4 @@
+channel,ell,q,derived_exponents,alpha,Lambda1_derived,K2_derived,law_maxdev_vs_derived
+dephase,2,1,"[4, 4, 0]",2.0,8.0,112.0,9.492406860545088e-15
+amp_damp,2,1,"[2, 2, 2]",1.0,3.0,15.0,3.9968028886505635e-15
+corr_dephase,2,1,"[0, 0, 0]",2.0,0.0,-0.0,5.329070518200751e-15

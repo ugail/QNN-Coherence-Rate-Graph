@@ -1,0 +1,20 @@
+{
+  "phase": "J3",
+  "mode": "paper",
+  "fingerprint_version": 3,
+  "config_fingerprint": "93c4a0c2867ab984",
+  "phase_source_sha256": "91d632e735f1",
+  "output_sha256": "b777463acde09d831f037fb6c2425df289efdb917b8be53ccec61d4bc4eebf04",
+  "companions": [],
+  "companion_sha256": {},
+  "written_utc": "2026-09-07T21:07:57Z",
+  "seeds": {
+    "teacher": 42,
+    "preflight": 11,
+    "est": 1,
+    "meas": 1234,
+    "boot": 7,
+    "sweep": 33,
+    "hess": 55
+  }
+}

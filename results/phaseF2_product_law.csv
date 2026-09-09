@@ -1,0 +1,4 @@
+channel,ell,q,alpha,slot_exponents,K_total,Lambda1_exact,K2_exact,H_same_slot_exact,H_cross_slot_exact,single_slot_maxdev,product_law_maxdev
+dephase,2,1,2.0,"[4, 4, 0]",8,8.0,112.0,96.0,128.0,1.887379141862766e-15,1.2961853812498703e-14
+amp_damp,2,1,1.0,"[2, 2, 2]",6,3.0,15.0,6.0,24.0,3.885780586188048e-15,3.774758283725532e-15
+corr_dephase,2,1,2.0,"[0, 0, 0]",0,0.0,-0.0,0.0,0.0,3.774758283725532e-15,2.886579864025407e-15
